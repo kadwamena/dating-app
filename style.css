@@ -1,12 +1,21 @@
 body {
     font-family: Helvetica;
+    font-size: 18px;
 }
 
 #header {
-    background-color:#072c72;
+    background-color:#325288;
     height: 40px;
     text-align: center;
     line-height: 40px;
+}
+
+#main {
+    width: 93rem;
+    height: 50rem;
+    background-image: url("assets/bg-img-top.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
@@ -17,6 +26,12 @@ h1 {
 
 .row {
     margin: 10px 20px;
+}
+
+.second-row {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4eee8;
 }
 
 #results {
@@ -43,3 +58,4 @@ h1 {
 .person-row > button {
    float: right; 
 }   
+
