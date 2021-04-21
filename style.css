@@ -1,61 +1,60 @@
 body {
-    font-family: Helvetica;
-    font-size: 18px;
+  font-family: Helvetica;
+  font-size: 18px;
 }
 
 #header {
-    background-color:#325288;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
+  background-color: #325288;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
 }
 
 #main {
-    width: 93rem;
-    height: 50rem;
-    background-image: url("assets/bg-img-top.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  width: 93rem;
+  height: 50rem;
+  background-image: url("assets/bg-img-top.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
-    vertical-align: middle;
-    color: white;
-    font-weight: bold;
+  vertical-align: middle;
+  color: white;
+  font-weight: bold;
 }
 
 .row {
-    margin: 10px 20px;
+  margin: 10px 20px;
 }
 
 .second-row {
-    display: flex;
-    justify-content: space-between;
-    background-color: #f4eee8;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f4eee8;
 }
 
 #results {
-    margin: 30px 20px 10px 0px;
+  margin: 30px 20px 10px 0px;
 }
 
 .person-row {
-    margin: 10px 0px;
-    padding: 10px;
-    background-color: #6c8da8;
-    width: 98%;
-    float: left;
+  margin: 10px 0px;
+  padding: 10px;
+  background-color: #6c8da8;
+  width: 98%;
+  float: left;
 }
 
 .person-row img {
-    float: left;
-    margin-right: 20px;
+  float: left;
+  margin-right: 20px;
 }
 
 .personal-info {
-    float: left;
+  float: left;
 }
 
 .person-row > button {
-   float: right; 
-}   
-
+  float: right;
+}
